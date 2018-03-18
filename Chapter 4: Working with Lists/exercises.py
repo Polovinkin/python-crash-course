@@ -15,3 +15,15 @@ odd_list =[odd for odd in range(1,20,2)]
 print(odd_list)
 
 #Ex.4-7: Threes
+threes = [3*three for three in range(1,11)]
+print(threes)
+
+#Ex.3-8: Cubes
+cubes = [cube**3 for cube in range(1,11)]
+print(cubes)
+
+#Ex.3-9: Cubes in standard way
+cubes1 = []
+for cube1 in range(1,11):
+    cubes1.append(cube1**3)
+print(cubes1)
