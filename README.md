@@ -1,1 +1,1 @@
-My exercises and progress from Python Crash Course book!
+Here I keep my exercises and other code from groovy "Python Crash Course" book!
