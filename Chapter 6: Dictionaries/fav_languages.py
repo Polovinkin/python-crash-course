@@ -5,5 +5,6 @@ favourite_languages = {
     'guido': 'python',
 }
 
-for name in favourite_languages:
-    print(name.title())
+print('The following languages have been mentioned:')
+for language in set(favourite_languages.values()):
+    print(language.title())
