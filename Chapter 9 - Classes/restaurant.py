@@ -16,6 +16,9 @@ class Restaurant():
         print('The ' + self.restaurant_name.title() + ' is totally open for visitors!')
 
 palkin = Restaurant('palkin', 'russian')
+tanren = Restaurant('tanren', 'chinese')
+kabanchik = Restaurant('kabanchik', 'georgian')
 
 palkin.describe_restaurant()
-palkin.open_restaurant()
+tanren.describe_restaurant()
+kabanchik.describe_restaurant()
