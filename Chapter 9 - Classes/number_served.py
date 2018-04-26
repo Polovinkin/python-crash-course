@@ -22,6 +22,18 @@ class Restaurant():
     def increment_number_served(self, number_inc):
         self.number_served += number_inc
 
+class IceCreamStand(Restaurant):
+    """One specific type of restaurant, kind of"""
+    def __init__(self, restaurant_name, cuisine_type):
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavours = ['orange', 'strawberry', 'coconut']
+
+    def display_flavours(self):
+        print("Here we have such flavours like: " + str(self.flavours) + '.')
+
+my_stand = IceCreamStand('johnies', 'ice cream')
+my_stand.display_flavours()
+
 restaurant = Restaurant('dubaevsk', 'european')
 print(restaurant.number_served)
 
