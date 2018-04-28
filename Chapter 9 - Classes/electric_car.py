@@ -1,5 +1,5 @@
 class Car():
-    """A simple attemot to sepresent a car"""
+    """A simple attempt to sepresent a car"""
 
     def __init__(self, make, model, year):
         """Initialize attributes to describe a car"""
