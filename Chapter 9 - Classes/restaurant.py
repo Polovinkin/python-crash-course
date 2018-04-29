@@ -1,3 +1,5 @@
+"""Restaurant class here"""
+
 class Restaurant():
     """Some info about restaurants you know."""
 
@@ -14,11 +16,3 @@ class Restaurant():
     def open_restaurant(self):
         """Stating that restaurant is open"""
         print('The ' + self.restaurant_name.title() + ' is totally open for visitors!')
-
-palkin = Restaurant('palkin', 'russian')
-tanren = Restaurant('tanren', 'chinese')
-kabanchik = Restaurant('kabanchik', 'georgian')
-
-palkin.describe_restaurant()
-tanren.describe_restaurant()
-kabanchik.describe_restaurant()
