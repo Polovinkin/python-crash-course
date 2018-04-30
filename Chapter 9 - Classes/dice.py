@@ -1,6 +1,8 @@
 from random import randint
 
 class Die():
+    """Rolls a die with sides as argument"""
+    
     def __init__(self, sides):
         self.sides = sides
     
