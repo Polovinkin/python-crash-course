@@ -1,0 +1,4 @@
+In Python you can work with files
+In Python you can scrape the web sites
+In Python you can analyze a lot of data
+In Python you can create lists, dictionaries and functions
